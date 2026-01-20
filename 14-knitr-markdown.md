@@ -50,7 +50,7 @@ more time on your analyses instead of writing reports.
 
 Ideally, such analysis reports are *reproducible* documents: If an
 error is discovered, or if some additional subjects are added to the
-data, you can just re-compile the report and get the new or corrected
+data, you can re-compile the report and get the new or corrected
 results rather than having to reconstruct figures, paste them into
 a Word document, and hand-edit various detailed results.
 
@@ -148,7 +148,7 @@ Each will appear as:
 You can use whatever method you prefer, but *be consistent*. This maintains the
 readability of your code.
 
-You can make a numbered list by just using numbers. You can even use the
+You can make a numbered list by using numbers instead. You can even use the
 same number over and over if you want:
 
 ```
@@ -312,7 +312,7 @@ The Markdown and figure documents are then processed by the tool
 [`pandoc`](https://pandoc.org/), which converts the Markdown file into an
 html file, with the figures embedded.
 
-<img src="fig/14-knitr-markdown-rendered-rmd_to_html_fig-1.png" style="display: block; margin: auto auto auto 0;" />
+<img src="fig/14-knitr-markdown-rendered-rmd_to_html_fig-1.png" alt="" style="display: block; margin: auto auto auto 0;" />
 
 ## Chunk options
 
